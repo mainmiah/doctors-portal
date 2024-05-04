@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.login-container{
+    max-width: 385px;
+    min-height: 480px;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;margin-bottom: 150px;
+    border-radius: 18px;
+    box-shadow: 3px 4px 10px 2px #0000000D;
+
+}
+.login-container h2{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    position: relative;
+    margin-top: 25px;
+    text-align: center;
+}
+form{margin-left: -10px;
+     margin-top: -30px;}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: -40px;
+    
+}
+.form-group  label  {
+    font-size: 14px;
+    font-weight: 400;
+}
+.input-1 ,.login-btn {
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    width: 327px;
+    margin-left: -5px;
+}
+#forgotPass{
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+.login-btn {
+    padding: 14px 0;
+    background-color: #3A4256;
+    color: #D4D9E3;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+.new-account {
+    display: flex;
+    max-width: 327px;
+    margin: 5px auto;
+    gap: 10px;
+    justify-content: center;
+}
+.new-account p {
+    font-size: 12px;
+    font-weight: 400;
+    color: black;
+}
+.new-account a {
+    font-size: 12px;
+    font-weight: 400;
+    color: #19D3AE;
+    
+}
+
+
+.or{
+    display: flex;
+    width: 327px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 0 20px;
+   
+}
+
+.line{
+    width: 150px;
+    max-height: 0px;
+    border-bottom: 1px solid lightgrey;
+}
+.google-btn{
+    padding: 14px 0;
+    background-color:white;
+    color:#000000;
+    font-size: 16px;
+    font-weight: 400;
+    width: 327px;
+    border: 1.5px solid black;
+    border-radius: 8px;
+    margin: auto;
+        
+
+}

@@ -1,0 +1,124 @@
+*   {margin: 0 auto;}
+body{width: 1440px;}
+
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    width: 312px;
+    height: 312px;
+    box-shadow: 3px 4px 10px 2px #0000000D;
+
+}
+th, td {
+    
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #ffffff;
+}
+.calender{
+    
+    padding-left: 200px;
+    padding-right: 100px;
+}
+.bgChair-appointmentpage{
+    padding-left: 65px;
+   
+    overflow: hidden;
+}
+.bgChair-appointmentpage img {
+    width: 1363px;
+    height: 838px;
+    gap: 0px;
+    opacity: 0px;
+    }
+.services{
+    margin-top: 100px;
+}
+.services h2,.teeth-1 {
+    font-size: 22px;
+    font-weight: 400;
+    color:  #19D3AE;
+    text-align: center;
+}
+.services p {
+    font-size: 22px;
+    font-weight: 400;
+    color: #939393;
+    text-align: center;
+}
+.services>#second{
+    padding-top: 100px;
+}
+.six-services{
+    display:grid;
+    gap: 30px ;
+    padding-top: 50px;
+    margin: auto;
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2);
+    justify-content: center;
+    align-content: center;
+}
+.teeth-1{
+    width: 425px;
+    display: flex;
+    height: 110px;
+    box-shadow: 3px 4px 10px 2px #0000000D;
+    border-radius: 18px;
+    align-items: center;
+    justify-content: center;
+
+}
+.teeth-1:hover,.slot-1:hover{
+    background-color: rgba(224, 255, 255, 0.407);
+    
+}
+.teeth-1,.slot-1{
+    transition: background-color 0.5s ease;
+
+}
+.five-slots{
+    display:grid;
+    row-gap: 30px;
+    padding-top: 50px;
+    margin: auto;
+    padding-bottom: 100px;
+    width: 1440px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2);
+    justify-content: center;
+    align-content: center;
+}
+.slot-1{
+    width: 425px;
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 4px 10px 2px #0000000D;
+    border-radius: 18px;
+    align-items: center;
+    justify-content: center;
+}
+.slot-1 h2{
+    font-size: 20px;
+    font-weight: 600;
+    color: #19D3AE;
+}
+.slot-1 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 10px;
+}
+.booking{
+     background: linear-gradient(90deg, #19D3AE -22.5%, #0FCFEC 120.83%);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    color: white;
+    margin-top: 40px;
+}
